@@ -19,12 +19,29 @@ public class WrapperTest01 {
         // não passando mais por valores
         Byte byteW = 1;
         Short shortW = 2;
-        Integer intW = 3;
+        Integer intW = 3;  // autoboxing
         Long longW = 4L;
         Float floatW = 5F;
         Double doubleW = 6D;
         Character charW = 'W';
         Boolean booleanW = false;
 
+        int i = intW; // unboxing
+        Integer intW2 = Integer.parseInt("1");
+        Integer intW3 = Integer.parseInt("1");
+
+
+        System.out.println(Character.isDigit('A'));
+        System.out.println(Character.isDigit('9'));
+        System.out.println(Character.isLetterOrDigit('!'));
+        System.out.println(Character.isUpperCase('!'));
+        System.out.println(Character.isLowerCase('!'));
+        System.out.println(Character.toUpperCase('a'));
+        System.out.println(Character.toLowerCase('A'));
+
+
+        // autoboxing é quando tem o tipo primitivo e faz a conversão para o Wrapper(OBJ)
+        // unboxing é quando vai do Wrapper para um tipo primitivo
+        // toda obj tem um metodo
     }
 }

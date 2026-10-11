@@ -40,6 +40,9 @@ public class WrapperTest01 {
         System.out.println(Character.toLowerCase('A'));
 
 
+        // parse...() - converte wrapper para tipo primitivo
+        // valueOf...() - converte tipo primitivo para Wrapper
+
         // autoboxing é quando tem o tipo primitivo e faz a conversão para o Wrapper(OBJ)
         // unboxing é quando vai do Wrapper para um tipo primitivo
         // toda obj tem um metodo

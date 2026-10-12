@@ -9,7 +9,7 @@ public class StringTest01 {
         String nome2 = "William";
         // criou um nova string de refenrencia
         // e tbm tem uma nova string com willim suane
-        nome = nome.concat("Suane");
+        nome = nome.concat("Suane");  // nome += suane
         System.out.println(nome);
 
         // para comparar a referencia de um obj é utilizada o "=="
